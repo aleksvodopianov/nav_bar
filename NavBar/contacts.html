@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="iconsfont/iconsfont.min.css?_v=20220509031753" type="text/css" />
+    <!-- <link rel="stylesheet" href="iconsfonts/webfonts/*.woff2?_v=20220509031753" /> -->
+    <link rel="stylesheet" href="css/style.min.css?_v=20220509031753" type="text/css" />
+    <title>Contacts</title>
+    <style>
+        @font-face {
+            font-family: NewBaskervilleStd Bold;
+            font-display: swap;
+            src: url('../fonts/NewBaskervilleStd Bold.woff2') format('woff2'),
+                url('../fonts/NewBaskervilleStd Bold.woff') format('woff'),
+                url('../fonts/NewBaskervilleStd Bold.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: OleoScriptSwashCaps;
+            font-display: swap;
+            src: url('../fonts/OleoScriptSwashCaps-Bold.woff2') format('woff2'),
+                url('../fonts/OleoScriptSwashCaps-Bold.woff') format('woff'),
+                url('../fonts/OleoScriptSwashCaps-Bold.ttf') format('truetype');
+            font-weight: 700;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: Roboto;
+            font-display: swap;
+            src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+                url('../fonts/Roboto-Regular.woff') format('woff'),
+                url('../fonts/Roboto-Regular.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: Roboto;
+            font-display: swap;
+            src: url('../fonts/Roboto-Thin.woff2') format('woff2'),
+                url('../fonts/Roboto-Thin.woff') format('woff'),
+                url('../fonts/Roboto-Thin.ttf') format('truetype');
+            font-weight: 100;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: Roboto;
+            font-display: swap;
+            src: url('../fonts/Roboto-ThinItalic.woff2') format('woff2'),
+                url('../fonts/Roboto-ThinItalic.woff') format('woff'),
+                url('../fonts/Roboto-ThinItalic.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+
+    <body>
+        <div id="wrapper">
+            <header>
+    <div class="layout">
+        <div class="header">
+            <div class="logo">
+                <picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.jpg" alt="NavBar"></picture>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="../about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="../contacts.html">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+
+            <main class="main-contacts animation-fade">
+                <div class="layout">
+                    <div class="contacts">
+                        <div class="contacts-info">
+                            <div class="contacts-info-phone flex">
+                                <p>Telephone</p>
+                                <p>+12(012)1234567</p>
+                                <img src="img/phone-solid.svg" alt="phone">
+                            </div>
+                            <div class="contacts-info-address flex">
+                                <p>Address</p>
+                                <p>Main Citi, Anywhere str. 12 </p>
+                                <img src="img/location-dot-solid.svg" alt="location">
+                            </div>
+                            <div class="contacts-info-mail flex">
+                                <p>E-mail</p>
+                                <p>_main-citi@amail.gy</p>
+                                <img src="img/at-solid.svg" alt="at">
+                            </div>
+                        </div>
+                        <p>
+                            We are always ready for dialogue. Therefore, we will be glad to hear
+                            your feedback and suggestions. Send your message or call the number
+                            provided. Thank you for your concern.
+                        </p>
+                        <form action="/my-handling-form-page" method="post">
+                            <ul>
+                                <li>
+                                    <label for="name">Name:</label>
+                                    <input type="text" id="name" name="user_name" />
+                                </li>
+                                <li>
+                                    <label for="mail">E-mail:</label>
+                                    <input type="email" id="mail" name="user_mail" />
+                                </li>
+                                <li>
+                                    <label for="msg">Message:</label>
+                                    <textarea id="msg" name="user_message"></textarea>
+                                </li>
+                                <li>
+                                    <input class="submit" type="submit" value="Submit">
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </main>
+            <footer class="flex">
+    <div class="layout column">
+        <div class="follow-me">
+            <p>Follow us on other sites:</p>
+        </div>
+        <div class="social_icons">
+            <ul class="social_icons-list">
+                <li>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+        </div>
+
+        <script type="module" src="js/app.min.js?_v=20220509031753"></script>
+    </body>
+</html>
